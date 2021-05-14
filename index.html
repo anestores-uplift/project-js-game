@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project 2 - Tic Tac Toe Game</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Tic Tac Toe</h1>
+        </div>
+        <div class="container">
+            <button type="hidden" id="start_button">Start Game</button>
+            <button id="restart_button">Reset Game</button>
+            <input type="text" id="move_turn" readonly>
+        </div>
+        <div class="box-score">
+            <h2 id="game_winner">Status</h2>
+            <h3>Score</h3>
+            <div>
+                <h3 id="human_score">Human</h3>
+                <h3 id="computer_score">Computer</h3>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- create 6 boxes -->
+        <div class="box-container">
+            <div class="box" id="box1"></div>
+            <div class="box" id="box2"></div>
+            <div class="box" id="box3"></div>
+        </div>
+        <div class="box-container">
+            <div class="box" id="box4"></div>
+            <div class="box" id="box5"></div>
+            <div class="box" id="box6"></div>
+        </div>
+        <div class="box-container">
+            <div class="box" id="box7"></div>
+            <div class="box" id="box8"></div>
+            <div class="box" id="box9"></div>
+        </div>
+    </main>
+    <footer>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
